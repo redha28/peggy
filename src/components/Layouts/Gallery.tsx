@@ -3,15 +3,15 @@
 import { InfiniteMovingCards } from "../Elements/InfiniteMovingCard";
 
 // Import gambar
-import peggyCouple from "@/assets/images/peggy-couple.webp";
-import peggyDrink from "@/assets/images/peggy-drink.webp";
-import peggyGang2 from "@/assets/images/peggy-gang.webp";
-import peggyHore from "@/assets/images/peggy-hore.webp";
-import peggyPinkGang from "@/assets/images/peggy-pink-gang.webp";
-import peggyPinkLucu from "@/assets/images/peggy-pink-lucu.webp";
-import peggyPink from "@/assets/images/peggy-pink.webp";
-import peggyRandom from "@/assets/images/peggy-random.webp";
-import peggyTuru from "@/assets/images/peggy-turu.webp";
+import peggyCouple from "@/assets/Images/peggy-couple.webp";
+import peggyDrink from "@/assets/Images/peggy-drink.webp";
+import peggyGang2 from "@/assets/Images/peggy-gang.webp";
+import peggyHore from "@/assets/Images/peggy-hore.webp";
+import peggyPinkGang from "@/assets/Images/peggy-pink-gang.webp";
+import peggyPinkLucu from "@/assets/Images/peggy-pink-lucu.webp";
+import peggyPink from "@/assets/Images/peggy-pink.webp";
+import peggyRandom from "@/assets/Images/peggy-random.webp";
+import peggyTuru from "@/assets/Images/peggy-turu.webp";
 
 // Array gallery dengan gambar
 const gallery = [
