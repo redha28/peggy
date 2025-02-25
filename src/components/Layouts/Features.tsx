@@ -2,7 +2,8 @@ import { HoverEffect } from "../Elements/CardHover";
 
 export function Features() {
   return (
-    <section className="min-h-screen flex justify-center items-center">
+    <section className="min-h-screen flex flex-col justify-center items-center">
+      <h1 className="text-4xl font-bold">Why Use Peggy Note?</h1>
       <div className="max-w-5xl mx-auto px-8">
         <HoverEffect items={projects} />
       </div>
@@ -11,38 +12,33 @@ export function Features() {
 }
 export const projects = [
   {
-    title: "Stripe",
-    description: "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+    title: "Privacy & Sharing",
+    description:
+      "Users can create private notes for personal use or public notes that can be viewed by others, ensuring flexibility in content accessibility.",
   },
   {
-    title: "Netflix",
+    title: "User Accounts & Personalization",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "Peggy Note supports user accounts, enabling personalized experiences with saved preferences, note organization, and easy access across multiple devices.",
   },
   {
-    title: "Google",
+    title: "Engagement with Likes",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+      "Public notes can receive likes from other users, fostering interaction and recognition for valuable content within the community.",
   },
   {
-    title: "Meta",
+    title: "Seamless and Secure Access",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
+      "With robust authentication and cloud storage integration, Peggy Note ensures seamless access to notes while maintaining top-notch security.",
   },
   {
-    title: "Amazon",
+    title: "Cross-Platform Compatibility",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
+      "Optimized for web and mobile devices, Peggy Note provides a responsive and intuitive user experience anytime, anywhere.",
   },
   {
-    title: "Microsoft",
+    title: "Intuitive & Minimalist Design",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+      "Designed with simplicity in mind, Peggy Note offers a distraction-free writing environment with an elegant and user-friendly interface.",
   },
 ];

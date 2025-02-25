@@ -20,6 +20,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.custom-shadow-white {
-  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.573), 0 6px 6px rgba(255, 255, 255, 0.447);
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
 }
